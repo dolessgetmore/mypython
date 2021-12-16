@@ -1,7 +1,7 @@
 # from distutils.core import setup
 from setuptools import setup, find_packages
 
-import t2
+import ting
 
 # import unittest
 
@@ -11,12 +11,12 @@ import t2
 #     test_suite = test_loader.discover('tests', pattern='test_*.py')
 #     return test_suite
 
-setup(name=t2.__name__,
-      version=t2.__version__,
+setup(name=ting.__name__,
+      version=ting.__version__,
       description='Module for backdoor design and implementation.',
-      url=t2.__github__,
-      author=t2.__author__,
-      author_email=t2.__email__,
+      url=ting.__github__,
+      author=ting.__author__,
+      author_email=ting.__email__,
       license='MIT',
       packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
 	  keywords = ['crypto', 'covert', 'backdoor', 'shell']
