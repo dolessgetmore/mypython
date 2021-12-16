@@ -1,2 +1,3 @@
 class Test:
-    print("hi")
+    def print(self):
+        print("It tested")
