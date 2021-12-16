@@ -1,1 +1,1 @@
-__all__ = ['t2','test','ttt']
+__all__ = ['t2','test','ttt','codecopy']
